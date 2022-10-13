@@ -20,3 +20,5 @@ git push
 Il primo comando aggiunge tutti i file modificati allo stage prima del commit,
 il secondo salva i file che avete aggiunto, 
 il terzo carica il commit nella repository remota.
+
+Vincenzo spakka.
