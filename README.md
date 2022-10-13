@@ -5,13 +5,17 @@ Codice per l'esame Advanced Machine Learning (S. Giagu) 2021/2022.
 
 Per aggiornare la repository sulla vostra macchina usate:
 
-'git pull'
+```
+git pull
+```
 
 Per caricare i vostri cambiamenti locali sulla repository remota usate:
 
-'git add .'
-'git commit -m "**Commento sulle modifiche apportate**"'
-'git push'
+```
+git add .
+git commit -m "**Commento sulle modifiche apportate**"
+git push
+```
 
 Il primo comando aggiunge tutti i file modificati allo stage prima del commit,
 il secondo salva i file che avete aggiunto, 
