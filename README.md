@@ -22,3 +22,5 @@ il secondo salva i file che avete aggiunto,
 il terzo carica il commit nella repository remota.
 
 Vincenzo spakka.
+
+Giorgio anche.
