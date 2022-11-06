@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\usepackage{breqn}
+\usepackage{booktabs}
+
+\begin{document}
+
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+Equation & Complexity & Loss & Score \\
+\midrule
+$y = 0.00452$ & $1$ & $0.248$ & $0.0$ \\ \\
+$y = - 0.310 dy$ & $3$ & $0.115$ & $0.382$ \\ \\
+$y = 0.253 dx - 0.253 dy$ & $5$ & $0.0732$ & $0.228$ \\ \\
+$y = - 0.119 r \left(- dx + dy\right)$ & $7$ & $0.0342$ & $0.379$ \\ \\
+$y = r \left(0.0939 dx - 0.134 dy\right)$ & $9$ & $0.0261$ & $0.136$ \\ \\
+\begin{minipage}{0.8\linewidth} \vspace{-1em} \begin{dmath*} y = - \frac{0.514 \left(- dx + dy\right) \left(r - 0.993\right)}{r} \end{dmath*} \end{minipage} & $11$ & $0.0127$ & $0.359$ \\ \\
+\begin{minipage}{0.8\linewidth} \vspace{-1em} \begin{dmath*} y = - \frac{0.548 \left(- dx + dy\right) \left(r - 0.993\right)}{r} \end{dmath*} \end{minipage} & $13$ & $0.0118$ & $0.0361$ \\ \\
+\begin{minipage}{0.8\linewidth} \vspace{-1em} \begin{dmath*} y = - \frac{0.514 \left(- dx + 1.67 dy\right) \left(r - 0.993\right)}{r + 0.615} \end{dmath*} \end{minipage} & $15$ & $0.00725$ & $0.245$ \\ \\
+\begin{minipage}{0.8\linewidth} \vspace{-1em} \begin{dmath*} y = - \frac{0.424 \left(- dx + 1.67 dy\right) \left(r - 0.993\right)}{r} \end{dmath*} \end{minipage} & $17$ & $0.00249$ & $0.534$ \\ \\ % this is the best
+\begin{minipage}{0.8\linewidth} \vspace{-1em} \begin{dmath*} y = - \frac{0.424 \left(- dx + 1.63 dy\right) \left(r - 0.993\right)}{r} \end{dmath*} \end{minipage} & $19$ & $0.00191$ & $0.133$ \\ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{document}
