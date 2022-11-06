@@ -1,6 +1,6 @@
 Giorgio Contestabile - 06 Novembre 2022
 
-# Breve documentazione AML
+# Dove trovare i file
 
 ## Simulazioni Effettuate
 
@@ -11,8 +11,6 @@ Giorgio Contestabile - 06 Novembre 2022
 Tutti i file sono nella cartella resources.
 
 ### Spring
-
-I file prodotti per questa simulazione sono:
 
 * spring/best_msg.csv
 
@@ -33,4 +31,4 @@ Tabella con i risultati della regressione simbolica
 
 ### discontinuous
 
-> discontinuous/best_msg.csv
+* discontinuous/best_msg.csv
